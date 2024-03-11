@@ -10,3 +10,13 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+
+TEST_CASE("Test get_fahrenheit")
+{
+
+	REQUIRE(get_fahrenheit(0) == 32);
+	REQUIRE(get_fahrenheit(25) == 77);
+	REQUIRE(get_fahrenheit(36) == 96.8);
+	REQUIRE(get_fahrenheit(37) == 98.6);
+	
+}
