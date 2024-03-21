@@ -16,7 +16,7 @@ string decimal_to_binary(int dec)
         {
             str.push_back('0');
         }
-        else if (dec == 1)
+        else if (dec1 == 1)
         {
             str.push_back('1');
         }

@@ -15,6 +15,7 @@ int main()
         while (value < 1 || value > 512)
         {
             cout<<"\nInvalid option\n";
+            cout<<"\nEnter int value from 1 to 512:\n";
             cin>>value;
         }
         
@@ -23,10 +24,8 @@ int main()
 
         hex_val = decimal_to_hex(value);
 
-        cout<<"Hex value: "<<hex_val<<"\n";
+        cout<<"\nHex value: "<<hex_val<<"\n";
         }
-
-        
 
         cout<<"\nWould you like to enter another value?\n1-Yes\n2-No\n";
         cin>>option;
@@ -34,6 +33,7 @@ int main()
         while (option != 1 && option != 2)
         {
             cout<<"\nInvalid option\n";
+            cout<<"\nWould you like to enter another value?\n1-Yes\n2-No\n";
             cin>>option;
         }
         
